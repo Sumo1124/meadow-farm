@@ -20,4 +20,6 @@ const server=http.createServer(async(req,res)=>{
     else res.end(Buffer.from(await result.arrayBuffer()));
   }catch{res.writeHead(500,{'content-type':'text/plain'});res.end('Preview request failed.');}
 });
-server.listen(port,'127.0.0.1',()=>console.log(`Local: http://127.0.0.1:${port}/`));
+server.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on http://0.0.0.0:${port}/`);
+});
