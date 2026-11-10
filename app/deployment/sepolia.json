@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "chainId": 11155111,
+  "chainName": "Ethereum Sepolia",
+  "game": "0x41370b425645c8552D04e19F8Ba003893225D57D",
+  "tom": "0x74a9736006abE045E1cbaa7670E8bf2986Ea433a",
+  "rewardSigner": "0x684407Ed0159884BcEB0eD57D0BB946aF153668D",
+  "deployer": "0x0363e70E1bc25497Ed92C5b6A441DcCf03c57E74",
+  "block": 12102979,
+  "transaction": "0xbd710be44cad55db7d51808ba9e6504d6cbfdcb3837716994dbc6607e8cc70c6",
+  "deployedAt": "2026-11-10T06:50:31.397Z",
+  "publicRpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "explorer": "https://sepolia.etherscan.io",
+  "catalogHash": "0xef88222ce54ea55cdbe415804eee2b31c66911d19ce51bd3f6dc7050fd18ecc3",
+  "feeTestETH": "0.000000002033854345"
+}
